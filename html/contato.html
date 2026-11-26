@@ -1,47 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <!-- <meta charset="UTF-8"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ajuda</title>
-    <link rel="stylesheet" href="../css/estilo.css" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ajuda | Vôleibol</title>
+  <link rel="stylesheet" href="../css/bootstrap_min.css">
+  <link rel="stylesheet" href="../css/estilo.css">
 </head>
-<!-- Título -->
-<header>
-    <h1 class="título"><strong> Ajuda </strong></h1>
-    <p class="texto"> Tire suas dúvidas! </p>
-</header>
-<!-- Trocar página -->
-<nav class="trocapagina">
-    <a href="index.html">Básico</a>
-    <a href="posições-rotação.html">Rotação</a>
-    <a href="contato.html">Ajuda</a>
-</nav>
-<nav>
-    <form class="texto">
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">Vôleibol</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Básico</a></li>
+          <li class="nav-item"><a class="nav-link" href="posições-rotação.html">Rotação</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contato.html" aria-current="page">Ajuda</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="hero py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Ajuda</h1>
+      <p class="lead mb-0">Tire suas dúvidas!</p>
+    </div>
+  </header>
+ 
 
-        <div class="borda">
-            <label for="nome">Escreva seu nome:</label>
-            <input placeholder="Digite seu nome completo" required>
-        </div>
-
-        <div class="borda">
-            <label for="email">Escreva seu e-mail:</label>
-            <input placeholder="email@gmailcom" required>
-        </div>
 
 
-        <div class="borda">
-            <label for="mensagem">Tire sua dúvida</label>
-            <textarea rows="6" placeholder="Escreva sua dúvida" required></textarea>
-        </div>
-
-        <button type="submit" class="btn-enviar">Tirar dúvida</button>
-
-    </form>
-</nav>
-</section>
-</body>
-
-</html>
+  <script src="../js/bootstrap_min.js"></script>
+</body></html>
