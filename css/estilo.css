@@ -1,0 +1,12 @@
+:root{--bs-primary:#e8731a;--bs-primary-rgb:232,115,26;--bs-link-color:#c45a08;--bs-link-hover-color:#9a4506}
+body{background:#fff6ec}
+.hero{background:#1f8a5b;color:#fff;border-bottom:6px solid #e8731a}
+.hero p{max-width:60ch}
+.btn-primary{--bs-btn-bg:#e8731a;--bs-btn-border-color:#e8731a;--bs-btn-hover-bg:#c45a08;--bs-btn-hover-border-color:#c45a08;--bs-btn-active-bg:#9a4506;--bs-btn-active-border-color:#9a4506}
+.card{border-color:#f0c9a3}
+.card-title{color:#9a4506}
+.lead-text{max-width:70ch}
+
+.slide-img{height:420px;object-fit:contain;background:#1f2a30}
+.carousel-caption{background:rgba(0,0,0,.55);border-radius:.5rem;left:10%;right:10%;bottom:1.5rem}
+@media (max-width:576px){.slide-img{height:240px}.carousel-caption{bottom:.5rem;padding:.25rem}}
