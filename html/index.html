@@ -90,10 +90,41 @@
       </section>
       <section class="col-12">
       </section>
+      <section class="col-12">
+        <div class="card shadow-sm"><div class="card-body p-4">
+          <h2 class="card-title h4">Receba dicas de vôlei</h2>
+          <form class="needs-validation row g-3" novalidate data-modal="modalSucesso">
+            <div class="col-md-5">
+              <label for="cad-nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="cad-nome" minlength="3" required>
+              <div class="invalid-feedback">Informe seu nome (mínimo 3 letras).</div>
+            </div>
+            <div class="col-md-5">
+              <label for="cad-email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="cad-email" placeholder="email@gmail.com" required>
+              <div class="invalid-feedback">Informe um e-mail válido.</div>
+            </div>
+            <div class="col-md-2 d-flex align-items-end"><button type="submit" class="btn btn-primary w-100">Cadastrar</button></div>
+          </form>
+        </div></div>
+      </section>
     </div>
   </main>
 
+  <div class="modal fade" id="modalSucesso" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h2 class="modal-title fs-5" id="modalTitulo">Enviado com sucesso!</h2>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">Cadastro realizado! Você vai receber dicas de vôlei no seu e-mail.</div>
+        <div class="modal-footer"><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button></div>
+      </div>
+    </div>
+  </div>
 
 
   <script src="../js/bootstrap_min.js"></script>
+  <script src="../js/site.js"></script>
 </body></html>
